@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Capítol 2: <br> Dinamització de <br> l'aprenentatge <br> en el grup <br> segons la <br>modalitat <br> d'impartició","children":[{"content":"2.1 L'aprenentatge en grup","children":[{"content":"<strong>Objectiu</strong>","children":[],"payload":{"lines":"4,5"}},{"content":"<strong>Interacció</strong>","children":[],"payload":{"lines":"5,6"}},{"content":"<strong>Normes</strong>","children":[],"payload":{"lines":"6,8"}}],"payload":{"lines":"3,4"}},{"content":"2.2 Tipus de grups","children":[{"content":"2.2.1 Segons la relació entre els membres","children":[{"content":"<strong>Primaris</strong>","children":[],"payload":{"lines":"11,12"}},{"content":"<strong>Secundaris</strong>","children":[],"payload":{"lines":"12,14"}}],"payload":{"lines":"10,11"}},{"content":"2.2.2 Segons el modelatge","children":[{"content":"<strong>Pertinença</strong>","children":[],"payload":{"lines":"15,16"}},{"content":"<strong>Referència</strong>","children":[],"payload":{"lines":"16,18"}}],"payload":{"lines":"14,15"}},{"content":"2.2.3 Segons la dimensió del grup","children":[{"content":"<strong>Petit</strong>","children":[],"payload":{"lines":"19,20"}},{"content":"<strong>Mitjà</strong>","children":[],"payload":{"lines":"20,21"}},{"content":"<strong>Gran grup</strong>","children":[],"payload":{"lines":"21,23"}}],"payload":{"lines":"18,19"}}],"payload":{"lines":"8,9"}},{"content":"2.3 Fases del <br> desenvolupament <br> grupal","children":[{"content":"<strong>Formació</strong>","children":[],"payload":{"lines":"24,25"}},{"content":"<strong>Conflicte</strong>","children":[],"payload":{"lines":"25,26"}},{"content":"<strong>Normalització</strong>","children":[],"payload":{"lines":"26,27"}},{"content":"<strong>Execució</strong>","children":[],"payload":{"lines":"27,28"}},{"content":"<strong>Clausura</strong>","children":[],"payload":{"lines":"28,30"}}],"payload":{"lines":"23,24"}},{"content":"2.4 Tècniques de <br> dinamització grupal","children":[{"content":"2.4.1 Situació","children":[{"content":"<strong>Planificació</strong>","children":[],"payload":{"lines":"32,33"}},{"content":"<strong>Claredat</strong>","children":[],"payload":{"lines":"33,34"}},{"content":"<strong>Diversió</strong>","children":[],"payload":{"lines":"34,35"}},{"content":"<strong>Calidesa</strong>","children":[],"payload":{"lines":"35,36"}},{"content":"<strong>Participació</strong>","children":[],"payload":{"lines":"36,37"}},{"content":"<strong>Interacció</strong>","children":[],"payload":{"lines":"37,38"}},{"content":"<strong>Creativitat</strong>","children":[],"payload":{"lines":"38,40"}}],"payload":{"lines":"31,32"}},{"content":"2.4.2 Objectius de les tècniques:","children":[{"content":"Presentar els membres d'un grup nou.","children":[],"payload":{"lines":"41,42"}},{"content":"Promoure la cooperació i la confiança.","children":[],"payload":{"lines":"42,43"}},{"content":"Millorar la comunicació i resoldre conflictes.","children":[],"payload":{"lines":"43,44"}},{"content":"Treballar procediments, conceptes i actituds.","children":[],"payload":{"lines":"44,46"}}],"payload":{"lines":"40,41"}},{"content":"2.4.3 Dinàmiques de grup","children":[{"content":"<strong>Pluja d’idees</strong>","children":[],"payload":{"lines":"47,48"}},{"content":"<strong>Debat</strong>","children":[],"payload":{"lines":"48,49"}},{"content":"<strong>Assemblea</strong>","children":[],"payload":{"lines":"49,50"}},{"content":"<strong>Word Cafè</strong>","children":[],"payload":{"lines":"50,51"}},{"content":"<strong>Philip 6/6</strong>","children":[],"payload":{"lines":"51,52"}},{"content":"<strong>Videofòrum</strong>","children":[],"payload":{"lines":"52,54"}}],"payload":{"lines":"46,47"}}],"payload":{"lines":"30,31"}},{"content":"2.5 Coordinació <br> i moderació del grup","children":[{"content":"<strong>Directiu</strong>","children":[],"payload":{"lines":"55,56"}},{"content":"<strong>Participatiu</strong>","children":[],"payload":{"lines":"56,57"}},{"content":"<strong>Persuasiu</strong>","children":[],"payload":{"lines":"57,58"}},{"content":"<strong>Delegador</strong>","children":[],"payload":{"lines":"58,61"}}],"payload":{"lines":"54,55"}},{"content":"2.6 Tipus de <br>respostes dels alumnes","children":[{"content":"<strong>Líder</strong>        --- <strong>Tímid</strong>","children":[],"payload":{"lines":"62,63"}},{"content":"<strong>Segon</strong>        --- <strong>Exclòs</strong>","children":[],"payload":{"lines":"63,64"}},{"content":"<strong>Íntims</strong>       --- <strong>Distret</strong>","children":[],"payload":{"lines":"64,65"}},{"content":"<strong>Antagònics</strong>   --- <strong>Passota</strong>","children":[],"payload":{"lines":"65,66"}},{"content":"<strong>Cooperador</strong>   --- <strong>Lent</strong>","children":[],"payload":{"lines":"66,67"}},{"content":"<strong>Pallasso</strong>     --- <strong>Desafiador</strong>","children":[],"payload":{"lines":"67,68"}},{"content":"<strong>Monopolitzador</strong> - <strong>Irrespectuós</strong>","children":[],"payload":{"lines":"68,69"}},{"content":"<strong>Savi</strong>         - <strong>Violent</strong>","children":[],"payload":{"lines":"69,70"}},{"content":"<strong>Mut</strong>          -","children":[],"payload":{"lines":"70,72"}}],"payload":{"lines":"61,62"}},{"content":"2.7 Resolució <br>de conflictes","children":[{"content":"2.7.1 Reaccions davant <br> del conflicte","children":[{"content":"<strong>Estil evasiu</strong>","children":[],"payload":{"lines":"74,75"}},{"content":"<strong>Estil complaent</strong>","children":[],"payload":{"lines":"75,76"}},{"content":"<strong>Estil competitiu</strong>","children":[],"payload":{"lines":"76,77"}},{"content":"<strong>Estil compromès</strong>","children":[],"payload":{"lines":"77,78"}},{"content":"<strong>Estil col·laborador</strong>","children":[],"payload":{"lines":"78,80"}}],"payload":{"lines":"73,74"}},{"content":"2.7.2 Tècniques de <br> resolució de conflictes","children":[{"content":"<strong>Negociació</strong>","children":[{"content":"Compromís","children":[],"payload":{"lines":"82,83"}},{"content":"Problema","children":[],"payload":{"lines":"83,84"}},{"content":"Solució","children":[],"payload":{"lines":"84,85"}},{"content":"Pacte","children":[],"payload":{"lines":"85,86"}},{"content":"Pràctica","children":[],"payload":{"lines":"86,87"}}],"payload":{"lines":"81,87"}},{"content":"<strong>Mediació</strong>","children":[{"content":"Entrada","children":[],"payload":{"lines":"88,89"}},{"content":"Explica'm","children":[],"payload":{"lines":"89,90"}},{"content":"Ubiquem-nos","children":[],"payload":{"lines":"90,91"}},{"content":"Arreglem-ho","children":[],"payload":{"lines":"91,92"}},{"content":"Acord","children":[],"payload":{"lines":"92,93"}}],"payload":{"lines":"87,93"}}],"payload":{"lines":"80,81"}}],"payload":{"lines":"72,73"}}],"payload":{"lines":"1,2"}},{})</script>
+</body>
+</html>
