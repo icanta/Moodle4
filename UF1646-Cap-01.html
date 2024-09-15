@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Cap. 1 <br> Característiques <br> de les accions <br>tutorials en la formació <br> professional per <br>a l'ocupació","children":[{"content":"1. Tipologia d’educació","children":[{"content":"<strong>Educació formal</strong>","children":[],"payload":{"lines":"3,4"}},{"content":"<strong>Educació no formal</strong>","children":[{"content":"<strong>Oficial</strong>","children":[],"payload":{"lines":"5,6"}},{"content":"<strong>No oficial</strong>","children":[],"payload":{"lines":"6,7"}}],"payload":{"lines":"4,7"}},{"content":"<strong>Educació informal</strong>","children":[],"payload":{"lines":"7,9"}}],"payload":{"lines":"2,3"}},{"content":"2. Modalitats educatives","children":[{"content":"<strong>Presencial</strong>","children":[],"payload":{"lines":"10,11"}},{"content":"<strong>A distància</strong>","children":[],"payload":{"lines":"11,12"}},{"content":"<strong>Mixta</strong>","children":[],"payload":{"lines":"12,14"}}],"payload":{"lines":"9,10"}},{"content":"3. Característiques de l’alumnat","children":[{"content":"<strong>Desocupat</strong>","children":[],"payload":{"lines":"15,16"}},{"content":"<strong>Ocupat</strong>","children":[],"payload":{"lines":"16,17"}},{"content":"<strong>Empresa</strong>","children":[],"payload":{"lines":"17,18"}},{"content":"<strong>Altres</strong>","children":[],"payload":{"lines":"18,20"}}],"payload":{"lines":"14,15"}},{"content":"4. Estratègies d’aprenentatge autònom","children":[{"content":"<strong>Salut</strong>","children":[],"payload":{"lines":"21,22"}},{"content":"<strong>Voluntat</strong>","children":[],"payload":{"lines":"22,23"}},{"content":"<strong>Estil</strong>","children":[],"payload":{"lines":"23,24"}},{"content":"<strong>Tècniques</strong>","children":[],"payload":{"lines":"24,26"}}],"payload":{"lines":"20,21"}},{"content":"5. La comunicació online","children":[{"content":"<strong>Correu <br> electrònic</strong>","children":[],"payload":{"lines":"27,28"}},{"content":"<strong>Fòrum</strong>","children":[],"payload":{"lines":"28,29"}},{"content":"<strong>Xat</strong>","children":[],"payload":{"lines":"29,30"}},{"content":"<strong>Videoconferència</strong>","children":[],"payload":{"lines":"30,31"}},{"content":"<strong>Anuncis</strong>","children":[],"payload":{"lines":"31,33"}}],"payload":{"lines":"26,27"}},{"content":"6. Tutor presencial i tutor en línia","children":[{"content":"6.1 Estils de tutoria","children":[{"content":"<strong>Acadèmica</strong>","children":[],"payload":{"lines":"36,37"}},{"content":"<strong>Organitzativa</strong>","children":[],"payload":{"lines":"37,38"}},{"content":"<strong>Orientació</strong>","children":[],"payload":{"lines":"38,39"}},{"content":"<strong>Tècnica</strong>","children":[],"payload":{"lines":"39,41"}}],"payload":{"lines":"35,36"}},{"content":"6.2 Funcions del tutor","children":[{"content":"<strong>Acompanyar</strong>","children":[],"payload":{"lines":"42,43"}},{"content":"<strong>Guiar</strong>","children":[],"payload":{"lines":"43,44"}},{"content":"<strong>Motivar</strong>","children":[],"payload":{"lines":"44,45"}},{"content":"<strong>Donar suport</strong>","children":[],"payload":{"lines":"45,47"}}],"payload":{"lines":"41,42"}},{"content":"6.3 Habilitats tutorials","children":[{"content":"<strong>Escolta activa</strong>","children":[],"payload":{"lines":"48,49"}},{"content":"<strong>Empatia</strong>","children":[],"payload":{"lines":"49,50"}},{"content":"<strong>Assertivitat</strong>","children":[],"payload":{"lines":"50,51"}},{"content":"<strong>Comunicació</strong>","children":[],"payload":{"lines":"51,53"}}],"payload":{"lines":"47,48"}},{"content":"6.4 Estratègies en <br> l’activitat tutorial","children":[{"content":"<strong>Disponibilitat</strong>","children":[],"payload":{"lines":"54,55"}},{"content":"<strong>Adaptabilitat</strong>","children":[],"payload":{"lines":"55,56"}},{"content":"<strong>Responsabilitat</strong>","children":[],"payload":{"lines":"56,57"}},{"content":"<strong>Constància</strong>","children":[],"payload":{"lines":"57,59"}}],"payload":{"lines":"53,54"}},{"content":"6.5 Rols del tutor","children":[{"content":"<strong>Reactiu</strong>","children":[],"payload":{"lines":"60,61"}},{"content":"<strong>Actiu</strong>","children":[],"payload":{"lines":"61,62"}},{"content":"<strong>Proactiu</strong>","children":[],"payload":{"lines":"62,64"}}],"payload":{"lines":"59,60"}},{"content":"6.6 Coordinació de grups","children":[{"content":"<strong>Rols <br> socials</strong>:","children":[{"content":"<strong>Investigador</strong>","children":[],"payload":{"lines":"67,68"}},{"content":"<strong>Cohesionador</strong>","children":[],"payload":{"lines":"68,69"}},{"content":"<strong>Coordinador</strong>","children":[],"payload":{"lines":"69,70"}}],"payload":{"lines":"66,70"}},{"content":"<strong>Rols <br> mentals</strong>:","children":[{"content":"<strong>Cervell</strong>","children":[],"payload":{"lines":"71,72"}},{"content":"<strong>Avaluador</strong>","children":[],"payload":{"lines":"72,73"}},{"content":"<strong>Especialista</strong>","children":[],"payload":{"lines":"73,74"}}],"payload":{"lines":"70,74"}},{"content":"<strong>Rols <br> d’acció</strong>:","children":[{"content":"<strong>Impulsor</strong>","children":[],"payload":{"lines":"75,76"}},{"content":"<strong>Implementador</strong>","children":[],"payload":{"lines":"76,77"}},{"content":"<strong>Finalista</strong>","children":[],"payload":{"lines":"77,78"}}],"payload":{"lines":"74,78"}}],"payload":{"lines":"64,65"}}],"payload":{"lines":"33,34"}}],"payload":{"lines":"0,1"}},{})</script>
+</body>
+</html>
