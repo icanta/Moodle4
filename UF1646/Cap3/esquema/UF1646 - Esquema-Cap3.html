@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Cap. 3 <br>Desenvolupament <br> de l’acció <br> tutorial en línia","children":[{"content":"1. Característiques de l'Alumnat","children":[{"content":"<strong>Responsabilitats familiars</strong><br>\nCures de fills petits o persones dependents.","children":[],"payload":{"lines":"4,6"}},{"content":"<strong>Dificultat horària</strong><br>\nNecessitat de flexibilitat en els horaris.","children":[],"payload":{"lines":"6,8"}},{"content":"<strong>Aprenentatge individualitzat</strong><br>\nMajor dificultat per fomentar la interacció social.","children":[],"payload":{"lines":"8,10"}},{"content":"<strong>Ubicació geogràfica</strong><br>\nAlumnes de diverses localitats poden accedir al curs.","children":[],"payload":{"lines":"10,12"}},{"content":"<strong>Manca de transport</strong><br>\nEvita la necessitat de desplaçament físic.","children":[],"payload":{"lines":"12,14"}},{"content":"<strong>Competències digitals</strong><br>\nNecessitat de coneixements bàsics en TIC.","children":[],"payload":{"lines":"14,16"}},{"content":"<strong>Cost econòmic</strong><br>\nMenor despesa en comparació amb la formació presencial.","children":[],"payload":{"lines":"16,19"}}],"payload":{"lines":"3,4"}},{"content":"2. Elaboració de <br>la guia del curs","children":[{"content":"<strong>Títol i índex</strong><br>\nNom del curs i organització dels continguts.","children":[],"payload":{"lines":"20,22"}},{"content":"<strong>Presentació</strong><br>\nIntroducció a la guia i al curs.","children":[],"payload":{"lines":"22,24"}},{"content":"<strong>Identificació</strong><br>\nInformació sobre el certificat de professionalitat.","children":[],"payload":{"lines":"24,26"}},{"content":"<strong>Aula virtual</strong><br>\nExplicació del funcionament de la plataforma.","children":[],"payload":{"lines":"26,28"}},{"content":"<strong>Equip docent</strong><br>\nInformació de contacte dels tutors.","children":[],"payload":{"lines":"28,30"}},{"content":"<strong>Orientacions per a l'estudi</strong><br>\nConsells per a l'autoaprenentatge.","children":[],"payload":{"lines":"30,32"}},{"content":"<strong>Avaluació</strong><br>\nProves internes i externes, si n'hi ha.","children":[],"payload":{"lines":"32,34"}},{"content":"<strong>Requisits tècnics</strong><br>\nAspectes com connexió a internet i programari necessari.","children":[],"payload":{"lines":"34,37"}}],"payload":{"lines":"19,20"}},{"content":"3. Tasques i Activitats","children":[{"content":"<strong>Disseny de tasques</strong>","children":[{"content":"Títol","children":[],"payload":{"lines":"39,40"}},{"content":"Ojectiu","children":[],"payload":{"lines":"40,41"}},{"content":"Enunciat","children":[],"payload":{"lines":"41,42"}},{"content":"Recomanacions","children":[],"payload":{"lines":"42,43"}},{"content":"Data d'entrega","children":[],"payload":{"lines":"43,44"}},{"content":"Criteris d'avaluació.","children":[],"payload":{"lines":"44,45"}},{"content":"Forma d'entrega.","children":[],"payload":{"lines":"45,46"}}],"payload":{"lines":"38,46"}},{"content":"<strong>Avaluació d'activitats</strong>","children":[{"content":"<strong>Av. Inicial</strong>","children":[],"payload":{"lines":"47,48"}},{"content":"<strong>Av. Procés</strong>","children":[],"payload":{"lines":"48,49"}},{"content":"<strong>Av. Final</strong>","children":[],"payload":{"lines":"49,50"}}],"payload":{"lines":"46,50"}},{"content":"<strong>Registre de qualificacions</strong>","children":[],"payload":{"lines":"50,52"}}],"payload":{"lines":"37,38"}},{"content":"4. Responsabilitats <br> Administratives del Tutor","children":[{"content":"<strong>Registre d'incidències</strong>","children":[],"payload":{"lines":"53,54"}},{"content":"<strong>Registre de participació</strong>","children":[],"payload":{"lines":"54,55"}},{"content":"<strong>Informes d'avaluació</strong>","children":[],"payload":{"lines":"55,56"}},{"content":"<strong>Avaluació del material</strong>","children":[],"payload":{"lines":"56,57"}},{"content":"<strong>Selecció de recursos</strong>","children":[],"payload":{"lines":"57,58"}},{"content":"<strong>Gestió de la normativa</strong>","children":[],"payload":{"lines":"58,59"}},{"content":"<strong>Selecció d'espais</strong>","children":[],"payload":{"lines":"59,61"}}],"payload":{"lines":"52,53"}},{"content":"5. Elaboració de Videotutorials","children":[{"content":"<strong>Eines</strong>","children":[],"payload":{"lines":"62,63"}},{"content":"<strong>Organització</strong>","children":[{"content":"<strong>Introducció</strong>","children":[],"payload":{"lines":"64,65"}},{"content":"<strong>Explicació</strong>","children":[],"payload":{"lines":"65,66"}},{"content":"<strong>Cloenda</strong>","children":[],"payload":{"lines":"66,67"}}],"payload":{"lines":"63,67"}},{"content":"<strong>Exposició Didàctica</strong>","children":[{"content":"<strong>Títol</strong>","children":[],"payload":{"lines":"68,69"}},{"content":"<strong>Objectius</strong>","children":[],"payload":{"lines":"69,70"}},{"content":"<strong>Continguts</strong>","children":[],"payload":{"lines":"70,71"}},{"content":"<strong>Activitats</strong>","children":[],"payload":{"lines":"71,72"}},{"content":"<strong>Metodologia</strong>","children":[],"payload":{"lines":"72,73"}},{"content":"<strong>Temporització</strong>","children":[],"payload":{"lines":"73,74"}},{"content":"<strong>Recursos</strong>","children":[],"payload":{"lines":"74,75"}},{"content":"<strong>Avaluació</strong>","children":[],"payload":{"lines":"75,76"}}],"payload":{"lines":"67,76"}},{"content":"<strong>Desenvolupament</strong>","children":[],"payload":{"lines":"76,78"}}],"payload":{"lines":"61,62"}},{"content":"6. Criteris de Coordinació","children":[{"content":"<strong>Funcions del <br>coordinador:</strong>","children":[{"content":"Coordinar el desenvolupament de l'activitat acadèmica.","children":[],"payload":{"lines":"80,81"}},{"content":"Elaborar horaris","children":[],"payload":{"lines":"81,82"}},{"content":"Planificar activitats formatives","children":[],"payload":{"lines":"82,83"}},{"content":"Coordinar les activitats entre professorat, tutors i alumnes.","children":[],"payload":{"lines":"83,84"}},{"content":"Substituir a la figura del director si és necessari.","children":[],"payload":{"lines":"84,85"}}],"payload":{"lines":"79,85"}}],"payload":{"lines":"78,79"}}],"payload":{"lines":"1,2"}},{})</script>
+</body>
+</html>
