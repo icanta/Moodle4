@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Capítol 2: <br> Desenvolupament <br>de l'acció tutorial","children":[{"content":"2.1 Pla d’acció tutorial","children":[{"content":"<strong>Títol</strong><br>\nDefinir el nom del document.","children":[],"payload":{"lines":"4,6"}},{"content":"<strong>Índex</strong><br>\nOrganitzar els continguts per facilitar-ne la consulta.","children":[],"payload":{"lines":"6,8"}},{"content":"<strong>Presentació</strong><br>\nContextualitzar i clarificar el pla.","children":[],"payload":{"lines":"8,10"}},{"content":"<strong>Objectius</strong><br>\nDefinir les metes i finalitats.","children":[],"payload":{"lines":"10,12"}},{"content":"<strong>Principis</strong><br>\nPosar en valor l’atenció centrada en la persona, el respecte a la diversitat, etc.","children":[],"payload":{"lines":"12,14"}},{"content":"<strong>Agents</strong><br>\nProfessionals implicats en el PAT (direcció, coordinació, tutors...).","children":[],"payload":{"lines":"14,16"}},{"content":"<strong>Tutories</strong><br>\nTipologies de tutories (acadèmiques, orientatives, tècniques...).","children":[],"payload":{"lines":"16,18"}},{"content":"<strong>Programació</strong><br>\nPlanificació dels espais tutorials (grupals, individuals...).","children":[],"payload":{"lines":"18,20"}},{"content":"<strong>Avaluació</strong><br>\nMecanismes per avaluar el procés tutorial.","children":[],"payload":{"lines":"20,23"}}],"payload":{"lines":"3,4"}},{"content":"2.2 Organització i planificació","children":[{"content":"Preparació de la tutoria amb anterioritat.","children":[],"payload":{"lines":"24,25"}},{"content":"<strong>Plantilla de planificació tutorial</strong><br>\nInclou les dades de:<br>\n. Formació<br>\n. Dades; alumne i grup<br>\n. Tutoria; data, hora, lloc i tipus de tutoria<br>\n. Organització; amb presentació, desenvolupament i conclusió<br>\n. Altres aspectes","children":[],"payload":{"lines":"25,33"}}],"payload":{"lines":"23,24"}},{"content":"2.3 Supervisió i <br> seguiment","children":[{"content":"Revisió constant del procés tutorial per facilitar el progrés de l'alumne.","children":[],"payload":{"lines":"34,35"}},{"content":"<strong>Plantilla de seguiment tutorial</strong>:<br>\nExemple de taula que inclou:<br>\n. Formació<br>\n. Dades; alumne i grup<br>\n. Tutoria; data, hora, lloc i tipus de tutoria<br>\n. Temes<br>\n. Acords<br>\n. Observacions","children":[],"payload":{"lines":"35,44"}}],"payload":{"lines":"33,34"}},{"content":"2.4 Temporització de <br> l’acció tutorial","children":[{"content":"<strong>Fase prèvia</strong><br>\nResolució de dubtes abans de començar.","children":[],"payload":{"lines":"45,47"}},{"content":"<strong>Fase inicial</strong><br>\nAcompanyament en el començament del curs.","children":[],"payload":{"lines":"47,49"}},{"content":"<strong>Fase de seguiment</strong><br>\nAcompanyament durant el procés d'ensenyament.","children":[],"payload":{"lines":"49,51"}},{"content":"<strong>Fase final</strong><br>\nConclusió de la gestió tutorial al final del curs.","children":[],"payload":{"lines":"51,54"}}],"payload":{"lines":"44,45"}},{"content":"2.5 Realització <br> de cronogrames","children":[{"content":"Representació gràfica de les tasques tutorial per temporalitat.","children":[],"payload":{"lines":"55,57"}}],"payload":{"lines":"54,55"}},{"content":"2.6 Pla d’actuació <br> individualitzat (PAI)","children":[{"content":"Document per acompanyar de manera personalitzada l’alumnat.","children":[],"payload":{"lines":"58,59"}},{"content":"Inclou els camps:<br>\n. Dades: alumne, tutor, acció formativa<br>\n. Àrees de treball'<br>\n. Objectius<br>\n. Accions'<br>\n. Temporització<br>\n. Avaluació","children":[],"payload":{"lines":"59,66"}}],"payload":{"lines":"57,58"}}],"payload":{"lines":"1,2"}},{})</script>
+</body>
+</html>
